@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Valentine ❤</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onclick="startMusic()">
+
+  <header>
+    <h1 class="name-animate">Happy Valentine’s Day ❤</h1>
+    <p>You are my favorite part of every day, <span id="herName">Sivani</span> 💖</p>
+  </header>
+
+  <section>
+    <div id="letter">
+      <h2>💌 My Love Letter</h2>
+      <p>
+        My Love, <span id="herNameLetter">Sivani</span> 💕<br><br>
+      </p>
+      <p>
+        Ni ente life-il vannathinu shesham ellam kurach koodi sundaramaayi. 
+        Ni chirikkumbol ente tension ellam maari pokum, ni koode irikkumbo time engane poyi ennu polum ariyilla. 
+        Ni ente side-il undennulla feeling thanne ente biggest strength aanu.
+      </p><br>
+      <p>
+        Enikk ariyam njan perfect alla, pakshe njan ninne orupadu snehikkunnu 
+        Ni happy aayirikkunna kaaranam njan aavumbol, athaan ente biggest achievement. 
+        Ni ente dreams-il maathram alla, ente future-ilum undaakan njan agrahikkunnu.
+      </p><br>
+      <p>
+        Life full twists undaavum, problem varum, misunderstandingsum undaavum. 
+        Pakshe ellathinum mele njan ninte kai pidichu koode nadakkan aanu njan promise cheyyunnath. 
+        Ninte chiriyum, soundum, presence-um thanne ente safe place aanu.
+      </p><br>
+      <p>
+        I love you more than words can express, <span id="herNameEnd">Sivani</span>. 
+        Njan ninte koodi oru beautiful journey thudangaan agrahikkunnu. 
+        Happy Valentine’s Day, ente jeevithathinte priyappetta.
+      </p><br>
+      <p>
+        With all my love, <br>
+        Aju Krishna ❤️
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>📸 Our Memories</h2>
+      <img id="slideshow" src="assets/images/img1.jpg" alt="Our Memories">
+      <p id="caption">Our special moments 💕</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>🎁 Surprise</h2>
+      <button class="btn" onclick="showSurprise()">Click Me</button>
+      <div id="surprise">You are my forever Valentine 😘</div>
+
+      <video id="secondSurpriseVideo" width="100%" controls loop style="display:none; border-radius:15px; margin-top:15px;">
+        <source src="assets/videos/surprise.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>💍 One Question...</h2>
+      <p>Will you be my Valentine, <span id="herNameYes">Sivani</span>?</p>
+
+      <div class="btn-group">
+        <button class="btn yes-btn" onclick="sayYes()">YES 💘</button>
+        <button class="btn no-btn" onmouseover="moveNo()">NO 🙈</button>
+      </div>
+
+      <p id="answer"></p>
+    </div>
+  </section>
+
+  <footer>
+    Made with ❤ by Aju Krishna
+  </footer>
+
+  <audio id="bgMusic" loop>
+    <source src="assets/music/love.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
